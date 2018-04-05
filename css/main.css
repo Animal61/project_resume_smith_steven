@@ -1,5 +1,106 @@
-/* Set font family */
+/* ====== Set font family and background image ====== */
 html {
+    background: url(../img/flags-n-cross.png) center fixed no-repeat;
     font-family: 'Walter Turncoat', cursive;
     font-family: 'Shrikhand', cursive;
+}
+
+body {
+    background-color: rgba(255, 235, 215, 0.8);
+    padding: 20px;
+
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+header {
+    clear: both;
+    display: block;
+    text-align: center;
+}
+
+address {
+    font-family: 'Walter Turncoat', cursive;
+}
+
+article {
+    padding: 0 2%;
+    margin-bottom: 50px;
+}
+
+footer {
+    clear: both;
+    display: block;
+    margin: 50px 0 25px;
+    text-align: center;
+}
+
+/* ====== Set Headings and paragraph styings ====== */
+h1 {
+    color: white;
+    font-size: 1.8em;
+    text-shadow: 3px 2px blue;
+    -webkit-text-stroke: 1px red;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 3px 2px orange;
+    -webkit-text-stroke: 1px green;
+}
+
+h3 {
+    color: dimgray;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+h4 {
+    font-family: 'Walter Turncoat', cursive;
+    margin-left: 20px;
+}
+
+p {
+    font-family: 'Walter Turncoat', cursive;
+}
+
+ul {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+li {
+    font-size: inherit;
+    padding: 5px 0;
+}
+
+/* ====== Media Queries ====== */
+@media screen and (min-width: 800px) {
+
+    main {
+        width: 98%;
+    }
+
+    section {
+        display: inline-block;
+        float: left;
+        width: 66%;
+    }
+
+    section p {
+        margin-left: 30px;
+    }
+
+    aside {
+        display: inline-block;
+        float: left;
+        width: 34%;
+    }
 }
