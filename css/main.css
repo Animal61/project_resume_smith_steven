@@ -32,6 +32,10 @@ article {
     margin-bottom: 50px;
 }
 
+article p {
+    margin-left: 20px;
+}
+
 footer {
     clear: both;
     display: block;
@@ -79,6 +83,45 @@ ul {
 li {
     font-size: inherit;
     padding: 5px 0;
+}
+
+/* ====== Image Sytlings ====== */
+.therapy {
+    visibility: hidden;
+    height: 0;
+}
+
+.images {
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: 0 10% 20px;
+}
+
+.toggle-on {
+    position: absolute;
+    border-radius: 20px;
+    margin: 0 10% 20px;
+    width: 50%;
+    max-width: 300px;
+}
+
+.toggle-off {
+
+    /* position: absolute; */
+    border-radius: 20px;
+    margin: 0 25% 20px;
+    width: 50%;
+    max-width: 300px;
+    visibility: collapse;
+    z-index: 5;
+    position: static;
+}
+
+aside img {
+    width: 80%;
+    margin: 20px 10%;
+    border-radius: 20px;
 }
 
 /* ====== Media Queries ====== */
