@@ -1,15 +1,11 @@
-// JavaScript event listener to show therapy image
-var header1 = document.getElementsByTagName('h1')[0];
-
-header1.addEventListener('mouseover', function () {
-    document.getElementById('therapy').style.visibility = 'visible';
-    document.getElementById('therapy').style.height = 'auto';
-});
-
-header1.addEventListener('mouseout', function () {
-    document.getElementById('therapy').style.visibility = 'hidden';
-    document.getElementById('therapy').style.height = '0';
-});
+// Custom jQuery
+$('h1').hover(
+    function () {
+        $(this).append('<img id="theImg" src="img/therapy.jpg" class="images" alt="One of my alternate personalities" />');
+    }, function () {
+        $('#theImg').remove();
+    }
+);
 
 // Scroll up jquery
 $(document).ready(function () {
