@@ -7,6 +7,11 @@ $('h1').hover(
     }
 );
 
+// SlickNav Jquery plugin
+$(document).ready(function () {
+    $('#menu').slicknav();
+});
+
 // Scroll up jquery
 $(document).ready(function () {
     $.scrollUp();

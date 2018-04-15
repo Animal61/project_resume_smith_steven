@@ -11,6 +11,19 @@ body {
 
 }
 
+nav {
+    visibility: hidden;
+    height: 0;
+}
+
+.js #menu {
+    display: none;
+}
+
+.js .slicknav_menu {
+    display: block;
+}
+
 main {
     display: block;
     margin: 0 auto;
@@ -102,34 +115,12 @@ li {
 }
 
 .images {
-    clear: both;
     display: block;
     width: 80%;
-    margin: 0 10% 20px;
+    margin: 0 auto 20px;
     border-radius: 20px;
-}
-
-.toggle-on {
-    position: absolute;
-    margin: 0 10% 20px;
-    width: 50%;
     max-width: 300px;
-}
-
-.toggle-off {
-
-    /* position: absolute; */
-    margin: 0 25% 20px;
-    width: 50%;
-    max-width: 300px;
-    visibility: collapse;
-    z-index: 5;
-    position: static;
-}
-
-.hidden {
-    visibility: hidden;
-    height: 0;
+    text-align: center;
 }
 
 aside img {
@@ -144,6 +135,11 @@ aside img {
     /* ScrollUp stylings */
     #scrollUp {
         visibility: hidden;
+    }
+
+    .slicknav_menu {
+        display: none;
+        height: 0;
     }
 
     main {
