@@ -96,11 +96,11 @@ li {
     display: block;
     width: 80%;
     margin: 0 10% 20px;
+    border-radius: 20px;
 }
 
 .toggle-on {
     position: absolute;
-    border-radius: 20px;
     margin: 0 10% 20px;
     width: 50%;
     max-width: 300px;
@@ -109,7 +109,6 @@ li {
 .toggle-off {
 
     /* position: absolute; */
-    border-radius: 20px;
     margin: 0 25% 20px;
     width: 50%;
     max-width: 300px;
