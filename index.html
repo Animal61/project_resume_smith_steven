@@ -8,11 +8,26 @@
     
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Shrikhand|Walter+Turncoat" rel="stylesheet"> 
 </head>
 <body>
     <header>
+        <nav class="mainMenu"><!-- "nav" is an HTML5 element, you can use div if required or https://github.com/aFarkas/html5shiv to force support in ie7 and ie8 -->
+        <label for="toggleMenu" class="menuTitle">MENU</label>
+        <input type="checkbox" id="toggleMenu">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li>
+                <a href="#interests">Interests</a>
+            </li>
+
+        </ul>
+    </nav>
         <h1>Steven Kelley Smith</h1>
         <img id="therapy" src="img/therapy.jpg" alt="One of my alter personalities" class="images" />
         <address>
@@ -137,6 +152,7 @@
         &copy; 2018 kelley-smith.com
     </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
