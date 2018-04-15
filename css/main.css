@@ -43,6 +43,15 @@ footer {
     text-align: center;
 }
 
+/* ScrollUp stylings */
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #555555;
+    color: #ffffff;
+}
+
 /* ====== Set Headings and paragraph styings ====== */
 h1 {
     color: white;
@@ -131,6 +140,11 @@ aside img {
 
 /* ====== Media Queries ====== */
 @media screen and (min-width: 800px) {
+
+    /* ScrollUp stylings */
+    #scrollUp {
+        visibility: hidden;
+    }
 
     main {
         width: 98%;

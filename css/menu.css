@@ -69,7 +69,7 @@ label.menuTitle {
     margin: 0;
     display: block;
     cursor: pointer;
-    background: url("img/menu.png");
+    background: url("../img/menu.png");
     background-repeat: no-repeat;
     background-position: 97% 10px;
     background-size: 24px 19px; /*  Make same size as your menu.png */

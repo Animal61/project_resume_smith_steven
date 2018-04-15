@@ -10,3 +10,8 @@ header1.addEventListener('mouseout', function () {
     document.getElementById('therapy').style.visibility = 'hidden';
     document.getElementById('therapy').style.height = '0';
 });
+
+// Scroll up jquery
+$(document).ready(function () {
+    $.scrollUp();
+});
