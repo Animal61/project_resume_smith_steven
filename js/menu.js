@@ -19,7 +19,7 @@ var toggleChildrenClass = 'toggleChildren'; // Don't include .
 Call this function on page if you want to reset the menu
 to 'closed' on page load with optional slideToggle animation
 */
-var responsiveMenu = function(e) {
+var responsiveMenu = function (e) {
     $(navClassSelector + '> ul').css({ 'max-height': '100%', 'display': 'none'});
     $(labelClassSelector).click(function () {
         $(navClassSelector + '> ul').slideToggle(); //Can use toggle() if you prefer no animation
